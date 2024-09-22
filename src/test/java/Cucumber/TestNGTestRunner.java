@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
     features = "src/test/java/Cucumber",
     glue = "RahulShetty.stepDefinations",
     plugin = {"pretty", "html:target/cucumber-html-report.html", "json:target/cucumber.json"},
-    monochrome = true, tags="Regression"
+    monochrome = true, tags="@Regression"
 )
 public class TestNGTestRunner extends AbstractTestNGCucumberTests {
     // No additional code needed here
