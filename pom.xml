@@ -51,6 +51,11 @@
 			<artifactId>testng</artifactId>
 			<version>7.10.2</version>
 		</dependency>
+		<dependency>
+			<groupId>Amazon</groupId>
+			<artifactId>CRMAutomation</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<profiles>
 		<profile>

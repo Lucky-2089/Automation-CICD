@@ -36,7 +36,7 @@ public void ProductErrorValidation() throws IOException, InterruptedException
 
 	String productName="ZARA COAT 3";
 	ProductCatalog productcatalog= landingPage.LoginApplication("raja089@gmail.com", "Lucky@123");
-	List<WebElement> prods=productcatalog.getProductList();
+	//List<WebElement> prods=productcatalog.getProductList();
 	productcatalog.AddProductToCart(productName);
 	CartPage  cartPage=productcatalog.GoToCartPage();
 	Boolean match =cartPage.VerifyProductDisplay(productName);
