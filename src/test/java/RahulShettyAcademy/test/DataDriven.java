@@ -3,7 +3,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.util.NumberToTextConverter;
@@ -66,7 +66,7 @@ public class DataDriven {
 						while(cv.hasNext()) 
 						{
 							Cell c=cv.next();
-							if (c.getCellType() == Cell.CELL_TYPE_STRING) 
+							if (c.getCellType() == CellType.STRING) 
 							{
 								a.add(c.getStringCellValue());
 							}
