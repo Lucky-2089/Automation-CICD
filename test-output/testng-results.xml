@@ -1,41 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2024-10-04T19:20:44 IST" name="Default suite" finished-at="2024-10-04T19:20:45 IST" duration-ms="1454">
-    <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
-    </groups>
-    <test started-at="2024-10-04T19:20:44 IST" name="Default test" finished-at="2024-10-04T19:20:45 IST" duration-ms="1454">
-      <class name="Cucumber.TestNGRunnerLogin">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:44 IST" name="setUpClass" finished-at="2024-10-04T19:20:45 IST" duration-ms="920" status="PASS">
-          <params>
-            <param index="0">
-              <value>
+	<reporter-output>
+	</reporter-output>
+	<suite started-at="2024-10-04T19:20:44 IST" name="Default suite"
+		finished-at="2024-10-04T19:20:45 IST" duration-ms="1454">
+		<groups>
+			<group name="cucumber">
+				<method
+					signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					name="runScenario"
+					class="io.cucumber.testng.AbstractTestNGCucumberTests" />
+			</group> <!--
+			cucumber -->
+		</groups>
+		<test started-at="2024-10-04T19:20:44 IST" name="Default test"
+			finished-at="2024-10-04T19:20:45 IST" duration-ms="1454">
+			<class name="Cucumber.TestNGRunnerLogin">
+				<test-method is-config="true"
+					signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:44 IST" name="setUpClass"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="920"
+					status="PASS">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA[org.testng.TestRunner@469d003c]]>
               </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-04T19:20:45 IST" duration-ms="223" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
+						</param>
+					</params>
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				setUpClass -->
+				<test-method
+					signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:45 IST" name="runScenario"
+					description="Runs Cucumber Scenarios"
+					data-provider="scenarios"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="223"
+					status="FAIL">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA["Successful login with valid credentials"]]>
               </value>
-            </param>
-            <param index="1">
-              <value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA["Login functionality for the application"]]>
               </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
+						</param>
+					</params>
+					<exception class="io.cucumber.testng.UndefinedStepException">
+						<message>
               <![CDATA[The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -66,7 +83,7 @@ public void i_should_see_a_welcome_message() {
 }
 ]]>
             </message>
-            <full-stacktrace>
+						<full-stacktrace>
               <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -132,25 +149,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-04T19:20:45 IST" duration-ms="24" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
+					</exception> <!--
+					io.cucumber.testng.UndefinedStepException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				runScenario -->
+				<test-method
+					signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:45 IST" name="runScenario"
+					description="Runs Cucumber Scenarios"
+					data-provider="scenarios"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="24"
+					status="FAIL">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA["Successful login with valid credentials"]]>
               </value>
-            </param>
-            <param index="1">
-              <value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA["Login functionality for the application"]]>
               </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
+						</param>
+					</params>
+					<exception class="io.cucumber.testng.UndefinedStepException">
+						<message>
               <![CDATA[The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -181,7 +206,7 @@ public void i_should_see_a_welcome_message() {
 }
 ]]>
             </message>
-            <full-stacktrace>
+						<full-stacktrace>
               <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -247,25 +272,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-04T19:20:45 IST" duration-ms="17" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
+					</exception> <!--
+					io.cucumber.testng.UndefinedStepException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				runScenario -->
+				<test-method
+					signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:45 IST" name="runScenario"
+					description="Runs Cucumber Scenarios"
+					data-provider="scenarios"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="17"
+					status="FAIL">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA["Login fails with invalid credentials"]]>
               </value>
-            </param>
-            <param index="1">
-              <value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA["Login functionality for the application"]]>
               </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
+						</param>
+					</params>
+					<exception class="io.cucumber.testng.UndefinedStepException">
+						<message>
               <![CDATA[The step 'I am on the login page' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -291,7 +324,7 @@ public void i_should_see_an_error_message(String string) {
 }
 ]]>
             </message>
-            <full-stacktrace>
+						<full-stacktrace>
               <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I am on the login page' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -352,25 +385,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-04T19:20:45 IST" duration-ms="15" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
+					</exception> <!--
+					io.cucumber.testng.UndefinedStepException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				runScenario -->
+				<test-method
+					signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:45 IST" name="runScenario"
+					description="Runs Cucumber Scenarios"
+					data-provider="scenarios"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="15"
+					status="FAIL">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA["Login fails with an empty username"]]>
               </value>
-            </param>
-            <param index="1">
-              <value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA["Login functionality for the application"]]>
               </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
+						</param>
+					</params>
+					<exception class="io.cucumber.testng.UndefinedStepException">
+						<message>
               <![CDATA[The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -401,7 +442,7 @@ public void i_should_see_an_error_message(String string) {
 }
 ]]>
             </message>
-            <full-stacktrace>
+						<full-stacktrace>
               <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -467,25 +508,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-04T19:20:45 IST" duration-ms="17" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
+					</exception> <!--
+					io.cucumber.testng.UndefinedStepException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				runScenario -->
+				<test-method
+					signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:45 IST" name="runScenario"
+					description="Runs Cucumber Scenarios"
+					data-provider="scenarios"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="17"
+					status="FAIL">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA["Login fails with an empty password"]]>
               </value>
-            </param>
-            <param index="1">
-              <value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA["Login functionality for the application"]]>
               </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
+						</param>
+					</params>
+					<exception class="io.cucumber.testng.UndefinedStepException">
+						<message>
               <![CDATA[The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -516,7 +565,7 @@ public void i_should_see_an_error_message(String string) {
 }
 ]]>
             </message>
-            <full-stacktrace>
+						<full-stacktrace>
               <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I am on the login page' and 4 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -582,25 +631,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-04T19:20:45 IST" duration-ms="12" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
+					</exception> <!--
+					io.cucumber.testng.UndefinedStepException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				runScenario -->
+				<test-method
+					signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:45 IST" name="runScenario"
+					description="Runs Cucumber Scenarios"
+					data-provider="scenarios"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="12"
+					status="FAIL">
+					<params>
+						<param index="0">
+							<value>
                 <![CDATA["Login fails with both fields empty"]]>
               </value>
-            </param>
-            <param index="1">
-              <value>
+						</param>
+						<param index="1">
+							<value>
                 <![CDATA["Login functionality for the application"]]>
               </value>
-            </param>
-          </params>
-          <exception class="io.cucumber.testng.UndefinedStepException">
-            <message>
+						</param>
+					</params>
+					<exception class="io.cucumber.testng.UndefinedStepException">
+						<message>
               <![CDATA[The step 'I am on the login page' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -626,7 +683,7 @@ public void i_should_see_an_error_message(String string) {
 }
 ]]>
             </message>
-            <full-stacktrace>
+						<full-stacktrace>
               <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'I am on the login page' and 3 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -687,15 +744,25 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]" started-at="2024-10-04T19:20:45 IST" name="tearDownClass" finished-at="2024-10-04T19:20:45 IST" duration-ms="122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- Cucumber.TestNGRunnerLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+					</exception> <!--
+					io.cucumber.testng.UndefinedStepException -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				runScenario -->
+				<test-method is-config="true"
+					signature="tearDownClass()[pri:0, instance:Cucumber.TestNGRunnerLogin@3932c79a]"
+					started-at="2024-10-04T19:20:45 IST" name="tearDownClass"
+					finished-at="2024-10-04T19:20:45 IST" duration-ms="122"
+					status="PASS">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!--
+				tearDownClass -->
+			</class> <!--
+			Cucumber.TestNGRunnerLogin -->
+		</test> <!--
+		Default test -->
+	</suite> <!--
+	Default suite -->
 </testng-results>
